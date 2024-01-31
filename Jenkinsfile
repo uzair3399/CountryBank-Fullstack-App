@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git 'https://github.com/jaiswaladi246/CountryBank.git'
+                git 'https://github.com/uzair3399/CountryBank-Fullstack-App.git'
             }
         }
         
