@@ -23,7 +23,7 @@ pipeline {
         
          stage('Build & deploy') {
             steps {
-                 sh "docker-compose -f /home/ubuntu/apple/CountryBank-Fullstack-App/docker-compose.yml up -d"
+                 sh "sudo docker-compose -f /home/ubuntu/apple/CountryBank-Fullstack-App/docker-compose.yml up -d"
             }
         }
     }
